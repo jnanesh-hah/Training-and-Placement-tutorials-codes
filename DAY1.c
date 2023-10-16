@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 void main(){
-char usrch=' '';
+char usrch=' ';
 
   int count=4;
 
@@ -22,12 +22,14 @@ char usrch=' '';
 
     count--;
     if(count!=0){
-    printf("\nRemaining Count is= %d",count);
-      printf("Worng input , please Enter Valid input =");
+    printf("\nRemaining Count is= %d\n",count);
+      printf("Worng input , please Enter Valid input = ");
       goto ipval; 
     }
     else{
       printf("You are Exceeded");
   }
+
+}
     printf("Count=%d",count);
 }
